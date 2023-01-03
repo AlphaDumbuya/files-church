@@ -163,7 +163,7 @@ header nav ul li a{
 }
 /* pastors */
 .pastors{
-    width: 10%;
+    width: 100%;
     height: 1100px;
     display: block ;
     background-color: rgb(230, 225, 216);
@@ -177,7 +177,7 @@ header nav ul li a{
 .pastors .pst  .p{
     /* margin: 50%; */
     margin-top: 30px;
-    margin-left: 65px;
+    margin-left: 50px;
 }
 .pastors .p p{
      margin-left: 40%;
