@@ -177,25 +177,29 @@ header nav ul li a{
     display: block ;
     background-color: rgb(230, 225, 216);
     padding: 50px 20px;
+    margin-bottom: 40px;
     border-top-left-radius: 10px;
 }
 .pastors .wrapper{ 
     margin: 5%; 
 }
-
-.pastors .pst  .p{
+.pastors .wrapper div p{
+    margin-top: 0%;
+}
+.pastors .wrapper .pst  .p{
     /* margin: 50%; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-left: 15px;
 }
 .pastors .p p{
-     margin-left: 40%;
+     margin-left: 45%;
+    
 }
 .pastors .pst div{
     height: 200px;
     width: 200px;
     margin-top: 80px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-left: 17%;
     border-radius: 100%;
 }
@@ -336,7 +340,7 @@ footer p{
     border-radius: 100%;
 }
 .pastors .wrapper .p p{
-     margin-left: 30%;
+     margin-left: 45%;
     }
 
     /* Potfolio */
