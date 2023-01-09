@@ -271,7 +271,7 @@ form input, form textarea{
 }
 form button{
     padding: 15px;
-    background-color: rgb(226, 230, 49)
+    background-color: rgb(226, 230, 49);
     color: #fff;
     font-size: 18px;
     border: 0;
