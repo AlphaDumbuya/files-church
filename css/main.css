@@ -498,7 +498,7 @@ footer p{
     justify-content: center;
     margin-left: 40px;
 }
-form{
+ form{
         background-color: teal;
         margin-top: -20%;
         flex-direction: column;
@@ -508,7 +508,7 @@ form{
         max-width: 600px;
         border-radius: 10px;
 }
-form h3{
+form h2{
     color: #555;
     font-size: 40px;
     margin-bottom: 20px;
@@ -518,14 +518,14 @@ form input, form textarea{
     margin: 10px 0;
     padding: 20px;
     outline: none;
-    background-color: #fff;
+    background-color: #f5f5f5;
     font-size: 16px;
     border-radius: 7px;
 }
 form button{
     padding: 15px;
-    background-color: #81817d;
-    color: #fff;
+    background-color: #fff;
+    color: teal
     font-size: 18px;
     border: 0;
     outline: none;
@@ -548,6 +548,7 @@ form button{
 }
 .contact form{
     width: 60%;
+  
     
 }
 .form-controls{
