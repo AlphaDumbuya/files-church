@@ -69,13 +69,17 @@ header nav ul li a{
     font-size: 25px;
     padding: 7px 0;
     text-align: center;
-    color: #f5f5f5;
+    color:  orange;
+    margin-bottom: 15px;
    
 }
 .hero-left-content h3{
     text-align: center;
     font-size: 15px;
 }
+
+
+
 .hero-left-content h2:nth-of-type(1){
     font-size: 18px;
     margin-bottom: 20px;
@@ -104,6 +108,16 @@ header nav ul li a{
 .potfolio h2{
     
     text-align: center;
+    color: teal;
+   text-decoration: underline rgb(18, 82, 5);
+    
+}
+.potfolio h3{
+    
+  
+    color: teal;
+   text-decoration: underline rgb(18, 82, 5);
+    
 }
 .project-card{
     background-color: #fff;
@@ -122,29 +136,7 @@ header nav ul li a{
     margin-bottom: 30px;
 }
 
-.technologies{
-    margin-top: 20px;
-}
-.technologies ul{
-    display: flex;
-}
-.technologies ul li{
-    margin-right: 10px;
-    list-style: none;
-     font-size: 10px;
-     background-color: #00000022;
-     padding: 4px;
-     border-radius: 3px;
-}
-.button{
-    margin: 20px;
-    padding: 8px;
-    border: none;
-    background-color: teal;
-    color:#fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
+
 
 /* About */
 .about{
@@ -169,15 +161,7 @@ header nav ul li a{
     margin-top: 30px;
    
 }
-.about-button{
-    margin: 20px;
-    padding: 8px;
-    border: none;
-    background-color: teal;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
+
 /* our mission */
 .mission{
     padding: 50px 20px;
@@ -190,6 +174,9 @@ header nav ul li a{
     margin: 10%;
     margin-left: 0%;
     line-height: 25px;
+}
+.mission h3{
+    color: teal;
 }
 /* pastors */
 .pastors{
@@ -206,10 +193,16 @@ header nav ul li a{
 }
 .pastors .wrapper div p{
     margin-top: 0%;
+  
+}
+.pastors .wrapper div p b{
+    color: rgb(110, 110, 136)
+}
+.pastors h2{
+    color: darkblue;
 }
 .pastors .wrapper .pst  .p{
-    /* margin: 50%; */
-    /* margin-top: 30px; */
+   
     margin-left: 15px;
    
 }
@@ -522,18 +515,7 @@ form input, form textarea{
     font-size: 16px;
     border-radius: 7px;
 }
-form button{
-    padding: 15px;
-    background-color: #fff;
-    color: teal
-    font-size: 18px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 150px;
-    margin: 20px auto 0;
-    border-radius: 30px;
-    
+
 .contact{
     
     padding: 80px 100px;
