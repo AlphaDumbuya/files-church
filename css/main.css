@@ -239,6 +239,15 @@ header nav ul li a{
     align-items: center;
     justify-content: center;
 }
+iframe{
+    height: 400px;
+    margin-bottom: 10px;
+}
+.contact-details div{
+    height: 490px;
+    width: 500px;
+   
+}
 form{
         background-color: teal;
         display: flex;
@@ -491,11 +500,16 @@ footer p{
     justify-content: center;
     margin-left: 40px;
 }
+iframe{
+    height: 450px;
+    width: 80%;
+}
  form{
         background-color: teal;
         margin-top: -20%;
         flex-direction: column;
-        padding: 30px 40px;
+        padding: 30px 10px;
+       
     
         width: 90%;
         max-width: 600px;
@@ -505,6 +519,10 @@ form h2{
     color: #555;
     font-size: 40px;
     margin-bottom: 20px;
+}
+.form-container{
+     width: 1000px;
+     
 }
 form input, form textarea{
     border: 0;
