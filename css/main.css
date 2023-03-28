@@ -242,6 +242,7 @@ header nav ul li a{
 iframe{
     height: 520px;
     margin-bottom: 10px;
+    width: 50%;
     
 }
 .contact-details div{
@@ -255,8 +256,8 @@ form{
         display: flex;
         flex-direction: column;
         padding: 20px 20px;
-        width: 90%;
-        max-width: 600px;
+        width: 50%;
+        /* max-width: 600px; */
         border-radius: 10px;
         margin-top: -0%;
 }
@@ -317,6 +318,7 @@ form button{
     height: 10px;
 }
 .contact form{
+    width: 100%;
     margin-top: 30px;
     background-color:rgb(195, 199, 199);
     border-radius: 10px;
@@ -347,9 +349,18 @@ form button{
     margin-top:  20px;
     padding: 8px;
     border: none;
-    color: teal;
+    color: #fff;
     border-radius: 6px;
     cursor:pointer
+}
+.form-contents span p{
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+iframe{
+    width: 100%;
+    margin-top:  35px;
+    margin-bottom:  35px;
 }
 footer{
     background-color: #363636;
@@ -498,63 +509,20 @@ footer p{
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.form-container{
-    width: 100%;
-    height: 100vh;
-    float: top;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-}
-
-}
-iframe{
-    height: 450px;
-    width: 400px;
-    margin-bottom: -3%;
-}
- 
-
-form h2{
-    color: #555;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.form-container{
-     width: 1000px;
-     
-}
-form input, form textarea{
-    border: 0;
-    margin: 10px 0;
-    padding: 20px;
-    outline: none;
-    background-color: #f5f5f5;
-    font-size: 16px;
-    border-radius: 7px;
-}
-
 .contact{
     
     padding: 80px 100px;
-    display: flex;
+    
     
     
 }  
 
 .contact-details{
     width: 40%;
-    margin-left: 40px;
-    margin-left: 6px;
-}
-.contact-details iframe{
-    height: 420px;
 }
 .contact form{
-    width: 80%;
-    margin-left: 5px;
-  
+    width: 100%;
+    margin-top: 30px;
     
 }
 .form-controls{
@@ -565,9 +533,23 @@ form input, form textarea{
 .contact-button{
     padding: 8px 30px;
 }
-
-
-
+.form-contents{
+    display: flex;
+}
+.form-contents span:nth-child(1){
+    margin-right: 30px;
+}
+.form-contents span p{
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+iframe{
+    margin-bottom: 10px;
+    width: 800px;
+    height: 400px;
+    
+}
+} 
 
 
 
