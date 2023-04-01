@@ -55,14 +55,14 @@ h3{
     font-size: 22px;
 }
 .titles{
-    text-align: center;
     font-size: 18px;
+    text-align: start;
 }
 p{
     padding-left: 8px;
     padding-right: 8px;
 }
-@media(min-width: 900px){
+@media(min-width: 800px){
 h2{
     color: #fff;
     background-color: none;
@@ -71,5 +71,9 @@ h2{
     margin-top: 80px;
     font-size: 30px;
     
+}
+.titles{
+    text-align: center;
+    font-size: 18px;
 }
 }
