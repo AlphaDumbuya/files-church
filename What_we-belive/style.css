@@ -7,8 +7,10 @@
     left: 0%;
     padding-left: 10px;
     padding-top: 7px;
-    text-decoration: none;
-   
+    text-decoration: none; 
+}
+#arrow-div .arrow h4{
+    margin-top: 5px;
 }
 body{
     background-color: rgb(12, 12, 40);
@@ -63,7 +65,7 @@ h3{
 p{
     padding-left: 8px;
     padding-right: 8px;
-    font-size: 13px;
+    font-size: 14px;
 }
 /* Footer */
 footer{
