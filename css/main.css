@@ -391,7 +391,7 @@ footer p{
    
 }
 /* Media query styles for desktop screen */
-@media(min-width: 750px){
+@media(min-width: 720px){
     /* Body */
     body{
         font-size: 15px;
