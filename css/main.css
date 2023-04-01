@@ -159,8 +159,10 @@ header nav ul li a{
     border: none;
     color: #fff;
     border-radius: 6px;
-  font-size: 15px;
-    cursor:pointer
+   font-size: 15px;
+    cursor:pointer;
+    text-decoration: none;
+    
 }
 .about-image{
     width: 100%;
@@ -387,9 +389,9 @@ footer{
     color: #fff;
 }
 footer p{
-    font-size: 13px;
-   
+    font-size: 13px;  
 }
+
 /* Media query styles for desktop screen */
 @media(min-width: 750px){
     /* Body */
