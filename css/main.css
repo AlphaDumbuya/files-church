@@ -109,6 +109,7 @@ header nav ul li a{
     
     text-align: center;
     color: teal;
+   
   
     
 }
@@ -129,7 +130,7 @@ header nav ul li a{
     height: 250px;
     background-color: #363636;
     border-radius: 10px;
-    box-shadow: 4px 2px 2px 2px rgb(122, 120, 120);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
 }
 .project-content{
     margin-top: 5px;
@@ -229,6 +230,7 @@ header nav ul li a{
     /* margin-bottom: 30px; */
     margin-left: 17%;
     border-radius: 100%;
+    box-shadow: 2px 0px 0px rgba(0,0,0,0.261);
 }
 .pastors .pst div img{
     height: 200px;
