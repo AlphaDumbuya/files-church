@@ -377,6 +377,9 @@ iframe{
 footer{
     background-color: #363636;
 }
+footer p a{
+    color: #fff;
+}
 
 /* end of contact */
 
