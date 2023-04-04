@@ -81,6 +81,70 @@ footer{
 footer p{
     font-size: 13px;  
 }
+/* contact */
+.contact{
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-top-left-radius: 70px;
+}
+.contact-details h2{
+    padding: 8px;
+}
+
+.contact-details ul li{
+    list-style: none;
+    padding: 4px 0;
+}
+.contact form{
+    margin-top: 30px;
+    border-radius: 10px;
+    background-position: center;
+    padding: 20px;
+}
+.form-controls{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    opacity: 0.5;
+}
+.form-controls:active{
+    border: none;
+}
+.form-controls label,
+.form-controls input,
+.form-controls textarea{
+    display: block;
+    width: 100%;
+    color: #363636
+}
+
+.form-controls input,
+.form-controls textarea{
+    border: none;
+    padding: 7px 8px;
+    margin-top: 3px;
+}
+.contact-button{
+    margin-top:  20px;
+    padding: 8px;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor:pointer;
+    background-color: rgb(24, 55, 55);
+}
+iframe{
+    height: 520px;
+    margin-bottom: 10px;
+    width: 50%;  
+}
+iframe{
+    width: 100%;
+    margin-top:  35px;
+    margin-bottom:  35px;
+}
+/* end of contact */
 @media(min-width: 800px){
 h2{
     color: #fff;
