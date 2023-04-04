@@ -45,6 +45,10 @@ header nav ul li a{
     color: #3d3d3d;
     text-decoration: none;
 }
+header nav ul li a:active{
+    color: rgb(162, 162, 241);
+    
+}
 
 /* hero section */
 .hero{
